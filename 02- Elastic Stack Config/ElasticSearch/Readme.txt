@@ -1,0 +1,1 @@
+Use elasticsearch-reset-password.bat to set password

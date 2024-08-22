@@ -1,0 +1,1 @@
+run from bin: fluent-bit.exe -c ..\conf\fluent-bit.conf

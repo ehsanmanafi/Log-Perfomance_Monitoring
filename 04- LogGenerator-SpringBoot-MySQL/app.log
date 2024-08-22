@@ -1,0 +1,54 @@
+2024-08-22T10:40:21.456+03:30  INFO 16860 --- [log-generator] [main] c.l.l.LogGeneratorApplication            : Starting LogGeneratorApplication using Java 21.0.4 with PID 16860 (E:\learning\log-generator\target\classes started by Baran System in E:\learning\log-generator)
+2024-08-22T10:40:21.461+03:30  INFO 16860 --- [log-generator] [main] c.l.l.LogGeneratorApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T10:40:23.167+03:30  INFO 16860 --- [log-generator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T10:40:23.255+03:30  INFO 16860 --- [log-generator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
+2024-08-22T10:40:24.523+03:30  INFO 16860 --- [log-generator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T10:40:24.540+03:30  INFO 16860 --- [log-generator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T10:40:24.540+03:30  INFO 16860 --- [log-generator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T10:40:24.632+03:30  INFO 16860 --- [log-generator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T10:40:24.633+03:30  INFO 16860 --- [log-generator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3062 ms
+2024-08-22T10:40:25.151+03:30  INFO 16860 --- [log-generator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T10:40:25.453+03:30  INFO 16860 --- [log-generator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@184751f3
+2024-08-22T10:40:25.458+03:30  INFO 16860 --- [log-generator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T10:40:25.535+03:30  INFO 16860 --- [log-generator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T10:40:25.670+03:30  INFO 16860 --- [log-generator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T10:40:25.750+03:30  INFO 16860 --- [log-generator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T10:40:26.324+03:30  INFO 16860 --- [log-generator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T10:40:26.476+03:30  WARN 16860 --- [log-generator] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-22T10:40:26.478+03:30  WARN 16860 --- [log-generator] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-22T10:40:27.890+03:30  INFO 16860 --- [log-generator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T10:40:27.895+03:30  INFO 16860 --- [log-generator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:40:28.465+03:30  WARN 16860 --- [log-generator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T10:40:29.677+03:30  INFO 16860 --- [log-generator] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-22T10:40:29.828+03:30  INFO 16860 --- [log-generator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T10:40:29.849+03:30  INFO 16860 --- [log-generator] [main] c.l.l.LogGeneratorApplication            : Started LogGeneratorApplication in 9.374 seconds (process running for 10.799)
+2024-08-22T10:42:07.946+03:30  INFO 16860 --- [log-generator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:42:07.951+03:30  INFO 16860 --- [log-generator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T10:42:07.968+03:30  INFO 16860 --- [log-generator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-22T10:42:18.990+03:30  INFO 6408 --- [log-generator] [main] c.l.l.LogGeneratorApplication            : Starting LogGeneratorApplication using Java 21.0.4 with PID 6408 (E:\learning\log-generator\target\classes started by Baran System in E:\learning\log-generator)
+2024-08-22T10:42:18.995+03:30  INFO 6408 --- [log-generator] [main] c.l.l.LogGeneratorApplication            : No active profile set, falling back to 1 default profile: "default"
+2024-08-22T10:42:20.775+03:30  INFO 6408 --- [log-generator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-22T10:42:20.863+03:30  INFO 6408 --- [log-generator] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 1 JPA repository interface.
+2024-08-22T10:42:22.043+03:30  INFO 6408 --- [log-generator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-22T10:42:22.062+03:30  INFO 6408 --- [log-generator] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-22T10:42:22.063+03:30  INFO 6408 --- [log-generator] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-22T10:42:22.153+03:30  INFO 6408 --- [log-generator] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-22T10:42:22.154+03:30  INFO 6408 --- [log-generator] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3047 ms
+2024-08-22T10:42:22.645+03:30  INFO 6408 --- [log-generator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-22T10:42:22.908+03:30  INFO 6408 --- [log-generator] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@286866cb
+2024-08-22T10:42:22.912+03:30  INFO 6408 --- [log-generator] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-22T10:42:22.975+03:30  INFO 6408 --- [log-generator] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-22T10:42:23.062+03:30  INFO 6408 --- [log-generator] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-22T10:42:23.120+03:30  INFO 6408 --- [log-generator] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-22T10:42:23.659+03:30  INFO 6408 --- [log-generator] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-22T10:42:23.791+03:30  WARN 6408 --- [log-generator] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-22T10:42:23.793+03:30  WARN 6408 --- [log-generator] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-08-22T10:42:25.088+03:30  INFO 6408 --- [log-generator] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-22T10:42:25.095+03:30  INFO 6408 --- [log-generator] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:42:25.704+03:30  WARN 6408 --- [log-generator] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-22T10:42:26.980+03:30  INFO 6408 --- [log-generator] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-22T10:42:27.134+03:30  INFO 6408 --- [log-generator] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-22T10:42:27.156+03:30  INFO 6408 --- [log-generator] [main] c.l.l.LogGeneratorApplication            : Started LogGeneratorApplication in 9.126 seconds (process running for 10.626)
+2024-08-22T10:57:16.907+03:30  INFO 6408 --- [log-generator] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-22T10:57:16.922+03:30  INFO 6408 --- [log-generator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-22T10:57:16.940+03:30  INFO 6408 --- [log-generator] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
