@@ -7,6 +7,25 @@ Minimal code for Backend (LogGenerator-SpringBoot-MySQL) and consumer part (Coll
 - **Log Monitoring:** View and store execution logs.
 - **Performance Analysis:** Measure method execution time and provide detailed reports.
 
+## Environments:
+1. Flunet-bit 
+2. ElasticAPM
+3. ElasticSerach
+4. Kibana
+5. Kafka
+6. SpringBoot
+7. MySQL
+8. MongoDB
+
+## Installation Procedure:
+1. Check for the availability of 2020,9200, ports
+2. Run Fluent-bit By introduced Command("01-Fluent-bit Config" Folder)
+3. Run ElasticAPM and ElasticSearach and ElasticKibana with introduced commands in there folders.
+4. run kafka and zookeeper with docker compose file in "03- Kafka Docker Composer" folder
+4. Download and run Log Generator App(04- LogGenerator-SpringBoot-MySQL)
+5. Download and run a sample collector for kafka (05- Collector-SpringBoot-MongoDB)
+
+   
 ## Prerequisites:
 - Java 11+
 - Maven 3.6+
