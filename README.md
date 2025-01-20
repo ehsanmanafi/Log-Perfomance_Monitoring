@@ -18,7 +18,7 @@ Minimal code for Backend (LogGenerator-SpringBoot-MySQL) and consumer part (Coll
 8. MongoDB
 
 ## Installation Procedure:
-1. Check for the availability of 2020,9200, ports
+1. Check for the availability of 2020, 9200, 8200, 2181, 29092, 8282, 27017, 8080 ports
 2. Run Fluent-bit By Command in "01-Fluent-bit Config" Folder
 3. Run ElasticAPM and ElasticSearach and ElasticKibana by their commands in "02- Elastic Stack Config" folder.
 4. run kafka and zookeeper with docker compose file in "03- Kafka Docker Composer" folder
